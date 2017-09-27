@@ -35,8 +35,16 @@ export class PokemonListaComponent implements OnInit {
             classe = 'water'
         }else if(pkm.name == 'Grama'){
             classe = 'grass'
-        }else{
+        }else if(pkm.name == 'Venenoso'){
             classe = 'poison'
+        }else if(pkm.name == 'Inseto'){
+            classe ='bug'
+        }else if(pkm.name == 'Voador'){
+            classe = 'flying'
+        }else if(pkm.name == 'Normal'){
+            classe = 'normal'
+        }else{
+            classe = 'eletric'
         }
         return classe;
     }

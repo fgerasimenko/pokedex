@@ -13,6 +13,7 @@
     border: solid 1px #000;
     border-radius: 10px;
     font-family: Pokemon;
+    text-shadow: 1px 1px #000;
     color: #FFF;
     background-color: orangered;
 }
@@ -23,6 +24,7 @@
     border: solid 1px #000;
     border-radius: 10px;
     font-family: Pokemon;
+    text-shadow: 1px 1px #000;
     color: #FFF;
     background-color: blue;
 }
@@ -33,6 +35,7 @@
     border: solid 1px #000;
     border-radius: 10px;
     font-family: Pokemon;
+    text-shadow: 1px 1px #000;
     color: #FFF;
     background-color: green;
 }
@@ -46,4 +49,48 @@
     text-shadow: 1px 1px #000;
     color: #FFF;
     background-color: purple;
+}
+
+.bug{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #8b8b00;
+}
+
+.flying{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #009acd;
+}
+
+.normal{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #8b6914;
+}
+
+.eletric{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #eec900;
 }
