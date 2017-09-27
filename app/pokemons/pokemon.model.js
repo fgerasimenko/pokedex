@@ -1,9 +1,10 @@
 "use strict";
 class Pokemon {
-    constructor(number, name, image, sprite, type, passive, baseStats, evolutionLevel, evolution) {
+    constructor(number, name, image, desc, sprite, type, passive, baseStats, evolutionLevel, evolution) {
         this.number = number;
         this.name = name;
         this.image = image;
+        this.desc = desc;
         this.sprite = sprite;
         this.type = type;
         this.passive = passive;

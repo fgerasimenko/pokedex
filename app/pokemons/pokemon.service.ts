@@ -16,7 +16,7 @@ export class PokemonService {
         private http: Http
     ){}
 
-    findAll(): Promise<Pokemon[]>
+    findAll(): Promise<any[]>
     {
         return this.http.get(this.apiUrl)
             .toPromise()

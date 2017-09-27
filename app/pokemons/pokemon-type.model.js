@@ -1,6 +1,7 @@
 "use strict";
 class Type {
-    constructor(name, sprite, weakAgainst, strongAgainst) {
+    constructor(id, name, sprite, weakAgainst, strongAgainst) {
+        this.id = id;
         this.name = name;
         this.sprite = sprite;
         this.weakAgainst = weakAgainst;

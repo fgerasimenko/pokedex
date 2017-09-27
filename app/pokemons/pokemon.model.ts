@@ -6,6 +6,7 @@ export class Pokemon{
         public number: string,
         public name: string,
         public image: string,
+        public desc: string,
         public sprite: string[],
         public type: Type[],
         public passive: string,

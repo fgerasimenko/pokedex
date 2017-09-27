@@ -21,12 +21,29 @@ let PokemonListaComponent = class PokemonListaComponent {
         })
             .catch(err => console.log(err));
     }
+    getTipo(pkm) {
+        let classe;
+        if (pkm.name == 'Fogo') {
+            classe = 'fire';
+        }
+        else if (pkm.name == 'Água') {
+            classe = 'water';
+        }
+        else if (pkm.name == 'Grama') {
+            classe = 'grass';
+        }
+        else {
+            classe = 'poison';
+        }
+        return classe;
+    }
 };
 PokemonListaComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'pokemon-lista',
-        templateUrl: './pokemon-lista.component.html'
+        templateUrl: './pokemon-lista.component.html',
+        styleUrls: ['./pokemon.css']
     }),
     __metadata("design:paramtypes", [pokemon_service_1.PokemonService])
 ], PokemonListaComponent);

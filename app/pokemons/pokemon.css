@@ -1,0 +1,49 @@
+@font-face{
+    font-family: Pokemon;
+    src: url('app/pokemons/fonts/Pokemon.ttf')
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.fire{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    color: #FFF;
+    background-color: orangered;
+}
+
+.water{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    color: #FFF;
+    background-color: blue;
+}
+
+.grass{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    color: #FFF;
+    background-color: green;
+}
+
+.poison{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: purple;
+}
