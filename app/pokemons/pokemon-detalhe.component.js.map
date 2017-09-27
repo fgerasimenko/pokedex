@@ -1,0 +1,1 @@
+{"version":3,"file":"pokemon-detalhe.component.js","sourceRoot":"","sources":["pokemon-detalhe.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,wCAAkD;AAQlD,IAAa,uBAAuB,GAApC;IACI,gBAAgB,CAAC;IAEjB,QAAQ,KAAK,CAAC;CACjB,CAAA;AAJY,uBAAuB;IANnC,gBAAS,CAAC;QACP,QAAQ,EAAE,MAAM,CAAC,EAAE;QACnB,QAAQ,EAAE,iBAAiB;QAC3B,WAAW,EAAE,kCAAkC;KAElD,CAAC;;GACW,uBAAuB,CAInC;AAJY,0DAAuB"}
