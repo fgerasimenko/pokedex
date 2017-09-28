@@ -43,9 +43,24 @@ export class PokemonListaComponent implements OnInit {
             classe = 'flying'
         }else if(pkm.name == 'Normal'){
             classe = 'normal'
-        }else{
+        }else if(pkm.name == 'Fada'){
+            classe = 'fairy'
+        }else if(pkm.name == 'Elétrico'){
             classe = 'eletric'
-        }
+        }else if(pkm.name == 'Terra'){
+            classe = 'ground'
+        }else if(pkm.name == 'Gelo'){
+            classe = 'ice'
+        }else if(pkm.name == 'Dragão'){
+            classe = 'dragon'
+        }else if(pkm.name == 'Lutador'){
+            classe = 'fighting'
+        }else if(pkm.name == 'Psiquico'){
+            classe = 'psychic'
+        }else if(pkm.name == 'Pedra'){
+            classe = 'rock';
+        }else
+            classe = 'steel';
         return classe;
     }
 }

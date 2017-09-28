@@ -1,6 +1,9 @@
 "use strict";
 class Pokemon {
-    constructor(number, name, image, desc, sprite, type, passive, baseStats, evolutionLevel, evolution) {
+    constructor(number, name, image, desc, sprite, type, passive, baseStats, 
+        //public evolutionLevel: number,
+        //public evolution: Pokemon[],
+        generation) {
         this.number = number;
         this.name = name;
         this.image = image;
@@ -9,8 +12,7 @@ class Pokemon {
         this.type = type;
         this.passive = passive;
         this.baseStats = baseStats;
-        this.evolutionLevel = evolutionLevel;
-        this.evolution = evolution;
+        this.generation = generation;
     }
 }
 exports.Pokemon = Pokemon;

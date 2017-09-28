@@ -11,8 +11,9 @@ export class Pokemon{
         public type: Type[],
         public passive: string,
         public baseStats: Stats,
-        public evolutionLevel: number,
-        public evolution: Pokemon[]
+        //public evolutionLevel: number,
+        //public evolution: Pokemon[],
+        public generation: number
     ){}
 
 }

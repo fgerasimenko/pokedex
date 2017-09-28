@@ -2,7 +2,7 @@ export interface Stats{
         hp: number;
         attack: number;
         defense: number;
-        specialAtk: number;
-        specialDfs: number;
+        spAtk: number;
+        spDef: number;
         speed: number;
 }

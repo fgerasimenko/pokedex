@@ -94,3 +94,91 @@
     color: #FFF;
     background-color: #eec900;
 }
+
+.fairy{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #ff00ff;
+}
+
+.ground{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #997379;
+}
+
+.ice{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #cccccc;
+}
+
+.dragon{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #7070ff;
+}
+
+.fighting{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: red;
+}
+
+.psychic{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #f00c93;
+}
+
+.rock{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #9a955f;
+}
+
+.steel{
+    padding: 5px 5px;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background-color: #404040;
+}
