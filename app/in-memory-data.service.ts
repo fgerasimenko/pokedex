@@ -33,7 +33,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Bulbassauro',
                 desc: 'O Primeiro pokemon da Pokedéx',
                 image: '',//'app/pokemons/img/bulbassauro.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/bulbasaur.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Grama'),
                     types.find(tipo => tipo.name == 'Venenoso')
@@ -48,7 +48,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Ivyssauro',
                 desc: 'Evolução do Bulbassauro',
                 image: '',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/ivysaur.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Grama'),
                     types.find(tipo => tipo.name == 'Venenoso')
@@ -62,7 +62,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Venossauro',
                 desc: 'Evolução do Ivyssauro',
                 image: '',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/venusaur-f.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Grama'),
                     types.find(tipo => tipo.name == 'Venenoso')
@@ -76,7 +76,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Charmander',
                 desc: 'Primeiro Pokemon de fogo da Pokedéx',
                 image: '',//'app/pokemons/img/charmander.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/charmander.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Fogo')
                 ],
@@ -89,7 +89,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Charmeleon',
                 desc: 'Evolução do Charmander',
                 image: '',//'app/pokemons/img/charmeleon.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/charmeleon.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Fogo')
                 ],
@@ -102,7 +102,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Charizard',
                 desc: 'Evolução do Charmeleon',
                 image: '',//'app/pokemons/img/charizard.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/charizard.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Fogo'),
                     types.find(tipo => tipo.name == 'Dragão')
@@ -116,7 +116,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Squirtle',
                 desc: 'O Primeiro pokemon de água da Pokedéx',
                 image: '',//'app/pokemons/img/squirtle.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/squirtle.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Água')
                 ],
@@ -130,7 +130,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Wartortle',
                 desc: 'Evolução do Squirtle',
                 image: '',//'app/pokemons/img/wartortle.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/wartortle.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Água')
                 ],
@@ -144,7 +144,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Blastoise',
                 desc: 'Evolução do Wartortle',
                 image: '',//'app/pokemons/img/blastoise.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/blastoise.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Água')
                 ],
@@ -158,7 +158,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Caterpie',
                 desc: 'Primeiro Pokemon Inseto da Pokedéx',
                 image: '',//'app/pokemons/img/caterpie.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/caterpie.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto')
                 ],
@@ -172,7 +172,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Metapod',
                 desc: 'Evolução do Caterpie',
                 image: '',//'app/pokemons/img/metapod.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/metapod.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto')
                 ],
@@ -186,7 +186,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Butterfree',
                 desc: 'Evolução do Metapod',
                 image: '',//'app/pokemons/img/butterfree.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/butterfree.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -200,7 +200,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Weedle',
                 desc: 'Tipo o Caterpie',
                 image: '',//'app/pokemons/img/weedle.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/weedle.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto'),
                     types.find(tipo => tipo.name == 'Venenoso')
@@ -214,7 +214,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Kakuna',
                 desc: 'Evolução do Weedle',
                 image: '',//'app/pokemons/img/weedle.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/kakuna.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto'),
                     types.find(tipo => tipo.name == 'Venenoso')
@@ -228,7 +228,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Beedrill',
                 desc: 'Evolução do Kakuna',
                 image: '',//'app/pokemons/img/beedrill.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/beedrill.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Inseto'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -242,7 +242,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Pidgey',
                 desc: 'Pombo do Pokemon',
                 image: '',//'app/pokemons/img/pidgey.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/pidgey.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -256,7 +256,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Pidgeotto',
                 desc: 'Evolução do Pidgey',
                 image: '',//'app/pokemons/img/pidgeotto.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/pidgeotto.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -270,7 +270,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Pidgeot',
                 desc: 'Evolução do Pidgeotto',
                 image: '',//'app/pokemons/img/pidgeot.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/pidgeot.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -284,7 +284,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Rattata',
                 desc: 'Pior praga dos jogos do Pokemon',
                 image: '',//'app/pokemons/img/rattata.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/rattata.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal')
                 ],
@@ -297,7 +297,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Raticate',
                 desc: 'Evolução do Rattata',
                 image: '',//'app/pokemons/img/raticate.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/raticate.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal')
                 ],
@@ -310,7 +310,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Spearow',
                 desc: 'Outro Pombo',
                 image: '',//'app/pokemons/img/raticate.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/spearow.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -324,7 +324,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Fearow',
                 desc: 'Evolução do Spearow',
                 image: '',//'app/pokemons/img/fearow.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/fearow.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Normal'),
                     types.find(tipo => tipo.name == 'Voador')
@@ -338,7 +338,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Ekans',
                 desc: 'Cobritcha',
                 image: '',//'app/pokemons/img/ekans.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/ekans.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Venenoso')
                 ],
@@ -351,7 +351,7 @@ export class InMemoryDataService implements InMemoryDbService{
                 name: 'Arbok',
                 desc: 'Evolução da Ekans',
                 image: '',//'app/pokemons/img/arbok.jpg',
-                sprite: ['',''],
+                sprite: ['app/pokemons/img/sprites/arbok.png'],
                 type: [
                     types.find(tipo => tipo.name == 'Venenoso')
                 ],
@@ -359,55 +359,133 @@ export class InMemoryDataService implements InMemoryDbService{
                 baseStats: {hp: 60, attack: 95, defense: 69, spAtk: 65, spDef: 79, speed: 80},
                 generation: 1
             },
-            {
-                number: '025',
-                name: 'Pikachu',
-                desc: 'Ratin elétrico',
-                image: '',//'app/pokemons/img/pikachu.jpg',
-                sprite: ['',''],
-                type: [
-                    types.find(tipo => tipo.name == 'Elétrico')
-                ],
-                passive: 'Teste1',
-                baseStats: {hp: 35, attack: 55, defense: 40, spAtk: 50, spDef: 50, speed: 90},
-                generation: 1
-            },
-            {
-                number: '026',
-                name: 'Raichu',
-                desc: 'Evolução do Pikachu',
-                image: '',//'app/pokemons/img/pikachu.jpg',
-                sprite: ['',''],
-                type: [
-                    types.find(tipo => tipo.name == 'Elétrico')
-                ],
-                passive: 'Teste1',
-                baseStats: {hp: 60, attack: 90, defense: 55, spAtk: 90, spDef: 80, speed: 110},
-                generation: 1
-            },
-            {
-                number:'027',
-                name:'Sandshrew',
-                desc:'',
-                image:'',
-                sprite:['',''],
-                type:[
-                    types.find(tipo => tipo.name == 'Terra')
-                ],
-                passive:'',
-                baseStats: {hp:50,attack:75,defense:85,spAtk:20,spDef:30,speed:40},
-                generation:1
-            },
-            {number:"028",name:"Sandslash",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:75,attack:100,defense:110,spAtk:45,spDef:55,speed:65},generation:1},
-            {number:"029",name:"Nidoran♀",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:55,attack:47,defense:52,spAtk:40,spDef:40,speed:41},generation:1},
-            {number:"030",name:"Nidorina",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:70,attack:62,defense:67,spAtk:55,spDef:55,speed:56},generation:1},
-            {number:"031",name:"Nidoqueen",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:90,attack:92,defense:87,spAtk:75,spDef:85,speed:76},generation:1},{number:"032",name:"Nidoran♂",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:46,attack:57,defense:40,spAtk:40,spDef:40,speed:50},generation:1},{number:"033",name:"Nidorino",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:61,attack:72,defense:57,spAtk:55,spDef:55,speed:65},generation:1},{number:"034",name:"Nidoking",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:81,attack:102,defense:77,spAtk:85,spDef:75,speed:85},generation:1},{number:"035",name:"Clefairy",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:70,attack:45,defense:48,spAtk:60,spDef:65,speed:35},generation:1},{number:"036",name:"Clefable",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:95,attack:70,defense:73,spAtk:95,spDef:90,speed:60},generation:1},{number:"037",name:"Vulpix",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:38,attack:41,defense:40,spAtk:50,spDef:65,speed:65},generation:1},{number:"038",name:"Ninetales",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:73,attack:76,defense:75,spAtk:81,spDef:100,speed:100},generation:1},{number:"039",name:"Jigglypuff",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:115,attack:45,defense:20,spAtk:45,spDef:25,speed:20},generation:1},{number:"040",name:"Wigglytuff",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:140,attack:70,defense:45,spAtk:85,spDef:50,speed:45},generation:1},{number:"041",name:"Zubat",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:40,attack:45,defense:35,spAtk:30,spDef:40,speed:55},generation:1},{number:"042",name:"Golbat",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:75,attack:80,defense:70,spAtk:65,spDef:75,speed:90},generation:1},{number:"043",name:"Oddish",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:45,attack:50,defense:55,spAtk:75,spDef:65,speed:30},generation:1},{number:"044",name:"Gloom",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:65,defense:70,spAtk:85,spDef:75,speed:40},generation:1},{number:"045",name:"Vileplume",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:75,attack:80,defense:85,spAtk:110,spDef:90,speed:50},generation:1},{number:"046",name:"Paras",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:35,attack:70,defense:55,spAtk:45,spDef:55,speed:25},generation:1},{number:"047",name:"Parasect",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:60,attack:95,defense:80,spAtk:60,spDef:80,speed:30},generation:1},{number:"048",name:"Venonat",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:55,defense:50,spAtk:40,spDef:55,speed:45},generation:1},{number:"049",name:"Venomoth",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:70,attack:65,defense:60,spAtk:90,spDef:75,speed:90},generation:1},{number:"050",name:"Diglett",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:10,attack:55,defense:25,spAtk:35,spDef:45,speed:95},generation:1},{number:"051",name:"Dugtrio",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:35,attack:100,defense:50,spAtk:50,spDef:70,speed:120},generation:1},{number:"052",name:"Meowth",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:40,attack:45,defense:35,spAtk:40,spDef:40,speed:90},generation:1},{number:"053",name:"Persian",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:65,attack:70,defense:60,spAtk:65,spDef:65,speed:115},generation:1},{number:"054",name:"Psyduck",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:50,attack:52,defense:48,spAtk:65,spDef:50,speed:55},generation:1},{number:"055",name:"Golduck",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:80,attack:82,defense:78,spAtk:95,spDef:80,speed:85},generation:1},{number:"056",name:"Mankey",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:40,attack:80,defense:35,spAtk:35,spDef:45,speed:70},generation:1},{number:"057",name:"Primeape",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:65,attack:105,defense:60,spAtk:60,spDef:70,speed:95},generation:1},{number:"058",name:"Growlithe",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:55,attack:70,defense:45,spAtk:70,spDef:50,speed:60},generation:1},{number:"059",name:"Arcanine",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:90,attack:110,defense:80,spAtk:100,spDef:80,speed:95},generation:1},{number:"060",name:"Poliwag",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:40,attack:50,defense:40,spAtk:40,spDef:40,speed:90},generation:1},{number:"061",name:"Poliwhirl",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:65,attack:65,defense:65,spAtk:50,spDef:50,speed:90},generation:1},{number:"062",name:"Poliwrath",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:90,attack:95,defense:95,spAtk:70,spDef:90,speed:70},generation:1},{number:"063",name:"Abra",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:25,attack:20,defense:15,spAtk:105,spDef:55,speed:90},generation:1},{number:"064",name:"Kadabra",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:40,attack:35,defense:30,spAtk:120,spDef:70,speed:105},generation:1},{number:"065",name:"Alakazam",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:55,attack:50,defense:45,spAtk:135,spDef:95,speed:120},generation:1},{number:"066",name:"Machop",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:70,attack:80,defense:50,spAtk:35,spDef:35,speed:35},generation:1},
-            {number:"067",name:"Machoke",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:80,attack:100,defense:70,spAtk:50,spDef:60,speed:45},generation:1},
-            {number:"068",name:"Machamp",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:90,attack:130,defense:80,spAtk:65,spDef:85,speed:55},generation:1},
-            {number:"069",name:"Bellsprout",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:50,attack:75,defense:35,spAtk:70,spDef:30,speed:40},generation:1},{number:"070",name:"Weepinbell",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:65,attack:90,defense:50,spAtk:85,spDef:45,speed:55},generation:1},{number:"071",name:"Victreebel",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:105,defense:65,spAtk:100,spDef:70,speed:70},generation:1},{number:"072",name:"Tentacool",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:40,attack:40,defense:35,spAtk:50,spDef:100,speed:70},generation:1},{number:"073",name:"Tentacruel",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:70,defense:65,spAtk:80,spDef:120,speed:100},generation:1},{number:"074",name:"Geodude",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:40,attack:80,defense:100,spAtk:30,spDef:30,speed:20},generation:1},{number:"075",name:"Graveler",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:55,attack:95,defense:115,spAtk:45,spDef:45,speed:35},generation:1},{number:"076",name:"Golem",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:80,attack:120,defense:130,spAtk:55,spDef:65,speed:45},generation:1},{number:"077",name:"Ponyta",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:50,attack:85,defense:55,spAtk:65,spDef:65,speed:90},generation:1},{number:"078",name:"Rapidash",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:100,defense:70,spAtk:80,spDef:80,speed:105},generation:1},{number:"079",name:"Slowpoke",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:90,attack:65,defense:65,spAtk:40,spDef:40,speed:15},generation:1},{number:"080",name:"Slowbro",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:95,attack:75,defense:110,spAtk:100,spDef:80,speed:30},generation:1},{number:"081",name:"Magnemite",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Aço')],passive:"",baseStats:{hp:25,attack:35,defense:70,spAtk:95,spDef:55,speed:45},generation:1},{number:"082",name:"Magneton",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Aço')],passive:"",baseStats:{hp:50,attack:60,defense:95,spAtk:120,spDef:70,speed:70},generation:1},{number:"083",name:"Farfetch'd",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:52,attack:90,defense:55,spAtk:58,spDef:62,speed:60},generation:1},{number:"084",name:"Doduo",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:35,attack:85,defense:45,spAtk:35,spDef:35,speed:75},generation:1},{number:"085",name:"Dodrio",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:60,attack:110,defense:70,spAtk:60,spDef:60,speed:110},generation:1},{number:"086",name:"Seel",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:65,attack:45,defense:55,spAtk:45,spDef:70,speed:45},generation:1},{number:"087",name:"Dewgong",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:90,attack:70,defense:80,spAtk:70,spDef:95,speed:70},generation:1},{number:"088",name:"Grimer",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:80,defense:50,spAtk:40,spDef:50,speed:25},generation:1},{number:"089",name:"Muk",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:105,attack:105,defense:75,spAtk:65,spDef:100,speed:50},generation:1},{number:"090",name:"Shellder",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:65,defense:100,spAtk:45,spDef:25,speed:40},generation:1},{number:"091",name:"Cloyster",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:50,attack:95,defense:180,spAtk:85,spDef:45,speed:70},generation:1},{number:"092",name:"Gastly",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:30,attack:35,defense:30,spAtk:100,spDef:35,speed:80},generation:1},{number:"093",name:"Haunter",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:45,attack:50,defense:45,spAtk:115,spDef:55,speed:95},generation:1},{number:"094",name:"Gengar",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:65,defense:60,spAtk:130,spDef:75,speed:110},generation:1},{number:"095",name:"Onix",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:35,attack:45,defense:160,spAtk:30,spDef:45,speed:70},generation:1},{number:"096",name:"Drowzee",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:48,defense:45,spAtk:43,spDef:90,speed:42},generation:1},{number:"097",name:"Hypno",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:85,attack:73,defense:70,spAtk:73,spDef:115,speed:67},generation:1},{number:"098",name:"Krabby",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:105,defense:90,spAtk:25,spDef:25,speed:50},generation:1},{number:"099",name:"Kingler",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:55,attack:130,defense:115,spAtk:50,spDef:50,speed:75},generation:1},{number:"100",name:"Voltorb",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:40,attack:30,defense:50,spAtk:55,spDef:55,speed:100},generation:1},{number:"101",name:"Electrode",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:60,attack:50,defense:70,spAtk:80,spDef:80,speed:150},generation:1},
-            {number:"102",name:"Exeggcute",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:40,defense:80,spAtk:60,spDef:45,speed:40},generation:1},{number:"103",name:"Exeggutor",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:95,attack:95,defense:85,spAtk:125,spDef:75,speed:55},generation:1},
-            {number:"104",name:"Cubone",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:50,attack:50,defense:95,spAtk:40,spDef:50,speed:35},generation:1},{number:"105",name:"Marowak",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:60,attack:80,defense:110,spAtk:50,spDef:80,speed:45},generation:1},{number:"106",name:"Hitmonlee",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:50,attack:120,defense:53,spAtk:35,spDef:110,speed:87},generation:1},{number:"107",name:"Hitmonchan",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:50,attack:105,defense:79,spAtk:35,spDef:110,speed:76},generation:1},{number:"108",name:"Lickitung",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:90,attack:55,defense:75,spAtk:60,spDef:75,speed:30},generation:1},{number:"109",name:"Koffing",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:40,attack:65,defense:95,spAtk:60,spDef:45,speed:35},generation:1},{number:"110",name:"Weezing",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:65,attack:90,defense:120,spAtk:85,spDef:70,speed:60},generation:1},{number:"111",name:"Rhyhorn",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra'),types.find(tipo => tipo.name == 'Pedra')],passive:"",baseStats:{hp:80,attack:85,defense:95,spAtk:30,spDef:30,speed:25},generation:1},{number:"112",name:"Rhydon",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Terra'),types.find(tipo => tipo.name == 'Pedra')],passive:"",baseStats:{hp:105,attack:130,defense:120,spAtk:45,spDef:45,speed:40},generation:1},{number:"113",name:"Chansey",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:250,attack:5,defense:5,spAtk:35,spDef:105,speed:50},generation:1},{number:"114",name:"Tangela",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:65,attack:55,defense:115,spAtk:100,spDef:40,speed:60},generation:1},{number:"115",name:"Kangaskhan",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:105,attack:95,defense:80,spAtk:40,spDef:80,speed:90},generation:1},{number:"116",name:"Horsea",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:40,defense:70,spAtk:70,spDef:25,speed:60},generation:1},{number:"117",name:"Seadra",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:55,attack:65,defense:95,spAtk:95,spDef:45,speed:85},generation:1},{number:"118",name:"Goldeen",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:45,attack:67,defense:60,spAtk:35,spDef:50,speed:63},generation:1},{number:"119",name:"Seaking",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:80,attack:92,defense:65,spAtk:65,spDef:80,speed:68},generation:1},{number:"120",name:"Staryu",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:45,defense:55,spAtk:70,spDef:55,speed:85},generation:1},{number:"121",name:"Starmie",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:75,defense:85,spAtk:100,spDef:85,speed:115},generation:1},{number:"122",name:"Mr. Mime",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:40,attack:45,defense:65,spAtk:100,spDef:120,speed:90},generation:1},{number:"123",name:"Scyther",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:70,attack:110,defense:80,spAtk:55,spDef:80,speed:105},generation:1},{number:"124",name:"Jynx",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Gelo'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:65,attack:50,defense:35,spAtk:115,spDef:95,speed:95},generation:1},{number:"125",name:"Electabuzz",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:65,attack:83,defense:57,spAtk:95,spDef:85,speed:105},generation:1},{number:"126",name:"Magmar",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:95,defense:57,spAtk:100,spDef:85,speed:93},generation:1},{number:"127",name:"Pinsir",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Inseto')],passive:"",baseStats:{hp:65,attack:125,defense:100,spAtk:55,spDef:70,speed:85},generation:1},{number:"128",name:"Tauros",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:75,attack:100,defense:95,spAtk:40,spDef:70,speed:110},generation:1},{number:"129",name:"Magikarp",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:20,attack:10,defense:55,spAtk:15,spDef:20,speed:80},generation:1},{number:"130",name:"Gyarados",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:95,attack:125,defense:79,spAtk:60,spDef:100,speed:81},generation:1},{number:"131",name:"Lapras",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:130,attack:85,defense:80,spAtk:85,spDef:95,speed:60},generation:1},{number:"132",name:"Ditto",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:48,attack:48,defense:48,spAtk:48,spDef:48,speed:48},generation:1},{number:"133",name:"Eevee",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:55,attack:55,defense:50,spAtk:45,spDef:65,speed:55},generation:1},{number:"134",name:"Vaporeon",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:130,attack:65,defense:60,spAtk:110,spDef:95,speed:65},generation:1},{number:"135",name:"Jolteon",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:65,attack:65,defense:60,spAtk:110,spDef:95,speed:130},generation:1},{number:"136",name:"Flareon",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:130,defense:60,spAtk:95,spDef:110,speed:65},generation:1},{number:"137",name:"Porygon",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:65,attack:60,defense:70,spAtk:85,spDef:75,speed:40},generation:1},{number:"138",name:"Omanyte",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:35,attack:40,defense:100,spAtk:90,spDef:55,speed:35},generation:1},{number:"139",name:"Omastar",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:70,attack:60,defense:125,spAtk:115,spDef:70,speed:55},generation:1},{number:"140",name:"Kabuto",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:80,defense:90,spAtk:55,spDef:45,speed:55},generation:1},{number:"141",name:"Kabutops",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:60,attack:115,defense:105,spAtk:65,spDef:70,speed:80},generation:1},
-            {number:"142",name:"Aerodactyl",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:80,attack:105,defense:65,spAtk:60,spDef:75,speed:130},generation:1},{number:"143",name:"Snorlax",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:160,attack:110,defense:65,spAtk:65,spDef:110,speed:30},generation:1},{number:"144",name:"Articuno",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Gelo'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:85,defense:100,spAtk:95,spDef:125,speed:85},generation:1},{number:"145",name:"Zapdos",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:90,defense:85,spAtk:125,spDef:90,speed:100},generation:1},{number:"146",name:"Moltres",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Fogo'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:100,defense:90,spAtk:125,spDef:85,speed:90},generation:1},{number:"147",name:"Dratini",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Dragão')],passive:"",baseStats:{hp:41,attack:64,defense:45,spAtk:50,spDef:50,speed:50},generation:1},{number:"148",name:"Dragonair",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Dragão')],passive:"",baseStats:{hp:61,attack:84,defense:65,spAtk:70,spDef:70,speed:70},generation:1},{number:"149",name:"Dragonite",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Dragão'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:91,attack:134,defense:95,spAtk:100,spDef:100,speed:80},generation:1},{number:"150",name:"Mewtwo",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:106,attack:110,defense:90,spAtk:154,spDef:90,speed:130},generation:1},{number:"151",name:"Mew",desc:"",image:"",sprite:["",""],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:100,attack:100,defense:100,spAtk:100,spDef:100,speed:100},generation:1}
+            {number: '025',name: 'Pikachu',desc: 'Ratin elétrico',image: ''/*'app/pokemons/img/pikachu.jpg'*/,sprite: ['app/pokemons/img/sprites/pikachu.png'],type: [types.find(tipo => tipo.name == 'Elétrico')],passive: 'Teste1',baseStats: {hp: 35, attack: 55, defense: 40, spAtk: 50, spDef: 50, speed: 90},generation: 1}, 
+            {number:'026',name: 'Raichu',desc: 'Evolução do Pikachu',image: ''/*'app/pokemons/img/pikachu.jpg'*/,sprite: ['app/pokemons/img/sprites/raichu.png'],type: [types.find(tipo => tipo.name == 'Elétrico') ], passive: 'Teste1',baseStats: {hp: 60, attack: 90, defense: 55, spAtk: 90, spDef: 80, speed: 110},generation: 1},
+            {number:'027',name:'Sandshrew',desc:'',image:'',sprite:["app/pokemons/img/sprites/sandshrew.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:'',baseStats: {hp:50,attack:75,defense:85,spAtk:20,spDef:30,speed:40},generation:1},
+            {number:"028",name:"Sandslash",desc:"",image:"",sprite:["app/pokemons/img/sprites/sandslash.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:75,attack:100,defense:110,spAtk:45,spDef:55,speed:65},generation:1},
+            {number:"029",name:"Nidoran♀",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidoran-f.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:55,attack:47,defense:52,spAtk:40,spDef:40,speed:41},generation:1},
+            {number:"030",name:"Nidorina",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidorina.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:70,attack:62,defense:67,spAtk:55,spDef:55,speed:56},generation:1},
+            {number:"031",name:"Nidoqueen",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidoqueen.png"],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:90,attack:92,defense:87,spAtk:75,spDef:85,speed:76},generation:1},
+            {number:"032",name:"Nidoran♂",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidoran-m.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:46,attack:57,defense:40,spAtk:40,spDef:40,speed:50},generation:1},
+            {number:"033",name:"Nidorino",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidorino.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:61,attack:72,defense:57,spAtk:55,spDef:55,speed:65},generation:1},
+            {number:"034",name:"Nidoking",desc:"",image:"",sprite:["app/pokemons/img/sprites/nidoking.png"],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:81,attack:102,defense:77,spAtk:85,spDef:75,speed:85},generation:1},
+            {number:"035",name:"Clefairy",desc:"",image:"",sprite:["app/pokemons/img/sprites/clefairy.png"],type:[types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:70,attack:45,defense:48,spAtk:60,spDef:65,speed:35},generation:1},
+            {number:"036",name:"Clefable",desc:"",image:"",sprite:["app/pokemons/img/sprites/clefable.png"],type:[types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:95,attack:70,defense:73,spAtk:95,spDef:90,speed:60},generation:1},
+            {number:"037",name:"Vulpix",desc:"",image:"",sprite:["app/pokemons/img/sprites/vulpix.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:38,attack:41,defense:40,spAtk:50,spDef:65,speed:65},generation:1},
+            {number:"038",name:"Ninetales",desc:"",image:"",sprite:["app/pokemons/img/sprites/ninetales.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:73,attack:76,defense:75,spAtk:81,spDef:100,speed:100},generation:1},
+            {number:"039",name:"Jigglypuff",desc:"",image:"",sprite:["app/pokemons/img/sprites/jigglypuff.png"],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:115,attack:45,defense:20,spAtk:45,spDef:25,speed:20},generation:1},
+            {number:"040",name:"Wigglytuff",desc:"",image:"",sprite:["app/pokemons/img/sprites/wigglytuff.png"],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:140,attack:70,defense:45,spAtk:85,spDef:50,speed:45},generation:1},
+            {number:"041",name:"Zubat",desc:"",image:"",sprite:["app/pokemons/img/sprites/zubat.png"],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:40,attack:45,defense:35,spAtk:30,spDef:40,speed:55},generation:1},
+            {number:"042",name:"Golbat",desc:"",image:"",sprite:["app/pokemons/img/sprites/golbat.png"],type:[types.find(tipo => tipo.name == 'Venenoso'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:75,attack:80,defense:70,spAtk:65,spDef:75,speed:90},generation:1},
+            {number:"043",name:"Oddish",desc:"",image:"",sprite:["app/pokemons/img/sprites/oddish.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:45,attack:50,defense:55,spAtk:75,spDef:65,speed:30},generation:1},
+            {number:"044",name:"Gloom",desc:"",image:"",sprite:["app/pokemons/img/sprites/gloom.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:65,defense:70,spAtk:85,spDef:75,speed:40},generation:1},
+            {number:"045",name:"Vileplume",desc:"",image:"",sprite:["app/pokemons/img/sprites/vileplume.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:75,attack:80,defense:85,spAtk:110,spDef:90,speed:50},generation:1},
+            {number:"046",name:"Paras",desc:"",image:"",sprite:["app/pokemons/img/sprites/paras.png"],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:35,attack:70,defense:55,spAtk:45,spDef:55,speed:25},generation:1},
+            {number:"047",name:"Parasect",desc:"",image:"",sprite:["app/pokemons/img/sprites/parasect.png"],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:60,attack:95,defense:80,spAtk:60,spDef:80,speed:30},generation:1},
+            {number:"048",name:"Venonat",desc:"",image:"",sprite:["app/pokemons/img/sprites/venonat.png"],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:55,defense:50,spAtk:40,spDef:55,speed:45},generation:1},
+            {number:"049",name:"Venomoth",desc:"",image:"",sprite:["app/pokemons/img/sprites/venomoth.png"],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:70,attack:65,defense:60,spAtk:90,spDef:75,speed:90},generation:1},
+            {number:"050",name:"Diglett",desc:"",image:"",sprite:["app/pokemons/img/sprites/diglett.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:10,attack:55,defense:25,spAtk:35,spDef:45,speed:95},generation:1},
+            {number:"051",name:"Dugtrio",desc:"",image:"",sprite:["app/pokemons/img/sprites/dugtrio.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:35,attack:100,defense:50,spAtk:50,spDef:70,speed:120},generation:1},
+            {number:"052",name:"Meowth",desc:"",image:"",sprite:["app/pokemons/img/sprites/meowth.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:40,attack:45,defense:35,spAtk:40,spDef:40,speed:90},generation:1},
+            {number:"053",name:"Persian",desc:"",image:"",sprite:["app/pokemons/img/sprites/persian.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:65,attack:70,defense:60,spAtk:65,spDef:65,speed:115},generation:1},
+            {number:"054",name:"Psyduck",desc:"",image:"",sprite:["app/pokemons/img/sprites/psyduck.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:50,attack:52,defense:48,spAtk:65,spDef:50,speed:55},generation:1},
+            {number:"055",name:"Golduck",desc:"",image:"",sprite:["app/pokemons/img/sprites/golduck.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:80,attack:82,defense:78,spAtk:95,spDef:80,speed:85},generation:1},
+            {number:"056",name:"Mankey",desc:"",image:"",sprite:["app/pokemons/img/sprites/mankey.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:40,attack:80,defense:35,spAtk:35,spDef:45,speed:70},generation:1},
+            {number:"057",name:"Primeape",desc:"",image:"",sprite:["app/pokemons/img/sprites/primeape.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:65,attack:105,defense:60,spAtk:60,spDef:70,speed:95},generation:1},
+            {number:"058",name:"Growlithe",desc:"",image:"",sprite:["app/pokemons/img/sprites/growlithe.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:55,attack:70,defense:45,spAtk:70,spDef:50,speed:60},generation:1},
+            {number:"059",name:"Arcanine",desc:"",image:"",sprite:["app/pokemons/img/sprites/arcanine.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:90,attack:110,defense:80,spAtk:100,spDef:80,speed:95},generation:1},
+            {number:"060",name:"Poliwag",desc:"",image:"",sprite:["app/pokemons/img/sprites/poliwag.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:40,attack:50,defense:40,spAtk:40,spDef:40,speed:90},generation:1},
+            {number:"061",name:"Poliwhirl",desc:"",image:"",sprite:["app/pokemons/img/sprites/poliwhirl.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:65,attack:65,defense:65,spAtk:50,spDef:50,speed:90},generation:1},
+            {number:"062",name:"Poliwrath",desc:"",image:"",sprite:["app/pokemons/img/sprites/poliwrath.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:90,attack:95,defense:95,spAtk:70,spDef:90,speed:70},generation:1},
+            {number:"063",name:"Abra",desc:"",image:"",sprite:["app/pokemons/img/sprites/abra.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:25,attack:20,defense:15,spAtk:105,spDef:55,speed:90},generation:1},
+            {number:"064",name:"Kadabra",desc:"",image:"",sprite:["app/pokemons/img/sprites/kadabra.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:40,attack:35,defense:30,spAtk:120,spDef:70,speed:105},generation:1},
+            {number:"065",name:"Alakazam",desc:"",image:"",sprite:["app/pokemons/img/sprites/alakazam.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:55,attack:50,defense:45,spAtk:135,spDef:95,speed:120},generation:1},
+            {number:"066",name:"Machop",desc:"",image:"",sprite:["app/pokemons/img/sprites/machop.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:70,attack:80,defense:50,spAtk:35,spDef:35,speed:35},generation:1},
+            {number:"067",name:"Machoke",desc:"",image:"",sprite:["app/pokemons/img/sprites/machoke.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:80,attack:100,defense:70,spAtk:50,spDef:60,speed:45},generation:1},
+            {number:"068",name:"Machamp",desc:"",image:"",sprite:["app/pokemons/img/sprites/machamp.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:90,attack:130,defense:80,spAtk:65,spDef:85,speed:55},generation:1},
+            {number:"069",name:"Bellsprout",desc:"",image:"",sprite:["app/pokemons/img/sprites/bellsprout.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:50,attack:75,defense:35,spAtk:70,spDef:30,speed:40},generation:1},
+            {number:"070",name:"Weepinbell",desc:"",image:"",sprite:["app/pokemons/img/sprites/weepinbell.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:65,attack:90,defense:50,spAtk:85,spDef:45,speed:55},generation:1},
+            {number:"071",name:"Victreebel",desc:"",image:"",sprite:["app/pokemons/img/sprites/victreebel.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:105,defense:65,spAtk:100,spDef:70,speed:70},generation:1},
+            {number:"072",name:"Tentacool",desc:"",image:"",sprite:["app/pokemons/img/sprites/tentacool.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:40,attack:40,defense:35,spAtk:50,spDef:100,speed:70},generation:1},
+            {number:"073",name:"Tentacruel",desc:"",image:"",sprite:["app/pokemons/img/sprites/tentacruel.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:70,defense:65,spAtk:80,spDef:120,speed:100},generation:1},
+            {number:"074",name:"Geodude",desc:"",image:"",sprite:["app/pokemons/img/sprites/geodude.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:40,attack:80,defense:100,spAtk:30,spDef:30,speed:20},generation:1},
+            {number:"075",name:"Graveler",desc:"",image:"",sprite:["app/pokemons/img/sprites/graveler.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:55,attack:95,defense:115,spAtk:45,spDef:45,speed:35},generation:1},
+            {number:"076",name:"Golem",desc:"",image:"",sprite:["app/pokemons/img/sprites/golem.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:80,attack:120,defense:130,spAtk:55,spDef:65,speed:45},generation:1},
+            {number:"077",name:"Ponyta",desc:"",image:"",sprite:["app/pokemons/img/sprites/ponyta.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:50,attack:85,defense:55,spAtk:65,spDef:65,speed:90},generation:1},
+            {number:"078",name:"Rapidash",desc:"",image:"",sprite:["app/pokemons/img/sprites/rapidash.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:100,defense:70,spAtk:80,spDef:80,speed:105},generation:1},
+            {number:"079",name:"Slowpoke",desc:"",image:"",sprite:["app/pokemons/img/sprites/slowpoke.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:90,attack:65,defense:65,spAtk:40,spDef:40,speed:15},generation:1},
+            {number:"080",name:"Slowbro",desc:"",image:"",sprite:["app/pokemons/img/sprites/slowbro.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:95,attack:75,defense:110,spAtk:100,spDef:80,speed:30},generation:1},
+            {number:"081",name:"Magnemite",desc:"",image:"",sprite:["app/pokemons/img/sprites/magnemite.png"],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Aço')],passive:"",baseStats:{hp:25,attack:35,defense:70,spAtk:95,spDef:55,speed:45},generation:1},
+            {number:"082",name:"Magneton",desc:"",image:"",sprite:["app/pokemons/img/sprites/magneton.png"],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Aço')],passive:"",baseStats:{hp:50,attack:60,defense:95,spAtk:120,spDef:70,speed:70},generation:1},
+            {number:"083",name:"Farfetch'd",desc:"",image:"",sprite:["app/pokemons/img/sprites/farfetchd.png"],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:52,attack:90,defense:55,spAtk:58,spDef:62,speed:60},generation:1},
+            {number:"084",name:"Doduo",desc:"",image:"",sprite:["app/pokemons/img/sprites/doduo.png"],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:35,attack:85,defense:45,spAtk:35,spDef:35,speed:75},generation:1},
+            {number:"085",name:"Dodrio",desc:"",image:"",sprite:["app/pokemons/img/sprites/dodrio.png"],type:[types.find(tipo => tipo.name == 'Normal'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:60,attack:110,defense:70,spAtk:60,spDef:60,speed:110},generation:1},
+            {number:"086",name:"Seel",desc:"",image:"",sprite:["app/pokemons/img/sprites/seel.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:65,attack:45,defense:55,spAtk:45,spDef:70,speed:45},generation:1},
+            {number:"087",name:"Dewgong",desc:"",image:"",sprite:["app/pokemons/img/sprites/dewgong.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:90,attack:70,defense:80,spAtk:70,spDef:95,speed:70},generation:1},
+            {number:"088",name:"Grimer",desc:"",image:"",sprite:["app/pokemons/img/sprites/grimer.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:80,attack:80,defense:50,spAtk:40,spDef:50,speed:25},generation:1},
+            {number:"089",name:"Muk",desc:"",image:"",sprite:["app/pokemons/img/sprites/muk.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:105,attack:105,defense:75,spAtk:65,spDef:100,speed:50},generation:1},
+            {number:"090",name:"Shellder",desc:"",image:"",sprite:["app/pokemons/img/sprites/shellder.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:65,defense:100,spAtk:45,spDef:25,speed:40},generation:1},
+            {number:"091",name:"Cloyster",desc:"",image:"",sprite:["app/pokemons/img/sprites/cloyster.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:50,attack:95,defense:180,spAtk:85,spDef:45,speed:70},generation:1},
+            {number:"092",name:"Gastly",desc:"",image:"",sprite:["app/pokemons/img/sprites/gastly.png"],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:30,attack:35,defense:30,spAtk:100,spDef:35,speed:80},generation:1},
+            {number:"093",name:"Haunter",desc:"",image:"",sprite:["app/pokemons/img/sprites/haunter.png"],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:45,attack:50,defense:45,spAtk:115,spDef:55,speed:95},generation:1},
+            {number:"094",name:"Gengar",desc:"",image:"",sprite:["app/pokemons/img/sprites/gengar.png"],type:[types.find(tipo => tipo.name == 'Fantasma'),types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:60,attack:65,defense:60,spAtk:130,spDef:75,speed:110},generation:1},
+            {number:"095",name:"Onix",desc:"",image:"",sprite:["app/pokemons/img/sprites/onix.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:35,attack:45,defense:160,spAtk:30,spDef:45,speed:70},generation:1},
+            {number:"096",name:"Drowzee",desc:"",image:"",sprite:["app/pokemons/img/sprites/drowzee.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:48,defense:45,spAtk:43,spDef:90,speed:42},generation:1},
+            {number:"097",name:"Hypno",desc:"",image:"",sprite:["app/pokemons/img/sprites/hypno.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:85,attack:73,defense:70,spAtk:73,spDef:115,speed:67},generation:1},
+            {number:"098",name:"Krabby",desc:"",image:"",sprite:["app/pokemons/img/sprites/krabby.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:105,defense:90,spAtk:25,spDef:25,speed:50},generation:1},
+            {number:"099",name:"Kingler",desc:"",image:"",sprite:["app/pokemons/img/sprites/kingler.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:55,attack:130,defense:115,spAtk:50,spDef:50,speed:75},generation:1},
+            {number:"100",name:"Voltorb",desc:"",image:"",sprite:["app/pokemons/img/sprites/voltorb.png"],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:40,attack:30,defense:50,spAtk:55,spDef:55,speed:100},generation:1},
+            {number:"101",name:"Electrode",desc:"",image:"",sprite:["app/pokemons/img/sprites/electrode.png"],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:60,attack:50,defense:70,spAtk:80,spDef:80,speed:150},generation:1},
+            {number:"102",name:"Exeggcute",desc:"",image:"",sprite:["app/pokemons/img/sprites/exeggcute.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:40,defense:80,spAtk:60,spDef:45,speed:40},generation:1},
+            {number:"103",name:"Exeggutor",desc:"",image:"",sprite:["app/pokemons/img/sprites/exeggutor.png"],type:[types.find(tipo => tipo.name == 'Grama'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:95,attack:95,defense:85,spAtk:125,spDef:75,speed:55},generation:1},
+            {number:"104",name:"Cubone",desc:"",image:"",sprite:["app/pokemons/img/sprites/cubone.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:50,attack:50,defense:95,spAtk:40,spDef:50,speed:35},generation:1},
+            {number:"105",name:"Marowak",desc:"",image:"",sprite:["app/pokemons/img/sprites/marowak.png"],type:[types.find(tipo => tipo.name == 'Terra')],passive:"",baseStats:{hp:60,attack:80,defense:110,spAtk:50,spDef:80,speed:45},generation:1},
+            {number:"106",name:"Hitmonlee",desc:"",image:"",sprite:["app/pokemons/img/sprites/hitmonlee.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:50,attack:120,defense:53,spAtk:35,spDef:110,speed:87},generation:1},
+            {number:"107",name:"Hitmonchan",desc:"",image:"",sprite:["app/pokemons/img/sprites/hitmonchan.png"],type:[types.find(tipo => tipo.name == 'Lutador')],passive:"",baseStats:{hp:50,attack:105,defense:79,spAtk:35,spDef:110,speed:76},generation:1},
+            {number:"108",name:"Lickitung",desc:"",image:"",sprite:["app/pokemons/img/sprites/lickitung.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:90,attack:55,defense:75,spAtk:60,spDef:75,speed:30},generation:1},
+            {number:"109",name:"Koffing",desc:"",image:"",sprite:["app/pokemons/img/sprites/koffing.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:40,attack:65,defense:95,spAtk:60,spDef:45,speed:35},generation:1},
+            {number:"110",name:"Weezing",desc:"",image:"",sprite:["app/pokemons/img/sprites/weezing.png"],type:[types.find(tipo => tipo.name == 'Venenoso')],passive:"",baseStats:{hp:65,attack:90,defense:120,spAtk:85,spDef:70,speed:60},generation:1},
+            {number:"111",name:"Rhyhorn",desc:"",image:"",sprite:["app/pokemons/img/sprites/rhyhorn.png"],type:[types.find(tipo => tipo.name == 'Terra'),types.find(tipo => tipo.name == 'Pedra')],passive:"",baseStats:{hp:80,attack:85,defense:95,spAtk:30,spDef:30,speed:25},generation:1},
+            {number:"112",name:"Rhydon",desc:"",image:"",sprite:["app/pokemons/img/sprites/rhydon.png"],type:[types.find(tipo => tipo.name == 'Terra'),types.find(tipo => tipo.name == 'Pedra')],passive:"",baseStats:{hp:105,attack:130,defense:120,spAtk:45,spDef:45,speed:40},generation:1},
+            {number:"113",name:"Chansey",desc:"",image:"",sprite:["app/pokemons/img/sprites/chansey.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:250,attack:5,defense:5,spAtk:35,spDef:105,speed:50},generation:1},
+            {number:"114",name:"Tangela",desc:"",image:"",sprite:["app/pokemons/img/sprites/tangela.png"],type:[types.find(tipo => tipo.name == 'Grama')],passive:"",baseStats:{hp:65,attack:55,defense:115,spAtk:100,spDef:40,speed:60},generation:1},
+            {number:"115",name:"Kangaskhan",desc:"",image:"",sprite:["app/pokemons/img/sprites/kangaskhan.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:105,attack:95,defense:80,spAtk:40,spDef:80,speed:90},generation:1},
+            {number:"116",name:"Horsea",desc:"",image:"",sprite:["app/pokemons/img/sprites/horsea.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:40,defense:70,spAtk:70,spDef:25,speed:60},generation:1},
+            {number:"117",name:"Seadra",desc:"",image:"",sprite:["app/pokemons/img/sprites/seadra.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:55,attack:65,defense:95,spAtk:95,spDef:45,speed:85},generation:1},
+            {number:"118",name:"Goldeen",desc:"",image:"",sprite:["app/pokemons/img/sprites/goldeen.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:45,attack:67,defense:60,spAtk:35,spDef:50,speed:63},generation:1},
+            {number:"119",name:"Seaking",desc:"",image:"",sprite:["app/pokemons/img/sprites/seaking.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:80,attack:92,defense:65,spAtk:65,spDef:80,speed:68},generation:1},
+            {number:"120",name:"Staryu",desc:"",image:"",sprite:["app/pokemons/img/sprites/staryu.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:45,defense:55,spAtk:70,spDef:55,speed:85},generation:1},
+            {number:"121",name:"Starmie",desc:"",image:"",sprite:["app/pokemons/img/sprites/starmie.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:60,attack:75,defense:85,spAtk:100,spDef:85,speed:115},generation:1},
+            {number:"122",name:"Mr. Mime",desc:"",image:"",sprite:["app/pokemons/img/sprites/mr-mime.png"],type:[types.find(tipo => tipo.name == 'Psiquico'),types.find(tipo => tipo.name == 'Fada')],passive:"",baseStats:{hp:40,attack:45,defense:65,spAtk:100,spDef:120,speed:90},generation:1},
+            {number:"123",name:"Scyther",desc:"",image:"",sprite:["app/pokemons/img/sprites/scyther.png"],type:[types.find(tipo => tipo.name == 'Inseto'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:70,attack:110,defense:80,spAtk:55,spDef:80,speed:105},generation:1},
+            {number:"124",name:"Jynx",desc:"",image:"",sprite:["app/pokemons/img/sprites/jynx.png"],type:[types.find(tipo => tipo.name == 'Gelo'),types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:65,attack:50,defense:35,spAtk:115,spDef:95,speed:95},generation:1},
+            {number:"125",name:"Electabuzz",desc:"",image:"",sprite:["app/pokemons/img/sprites/electabuzz.png"],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:65,attack:83,defense:57,spAtk:95,spDef:85,speed:105},generation:1},
+            {number:"126",name:"Magmar",desc:"",image:"",sprite:["app/pokemons/img/sprites/magmar.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:95,defense:57,spAtk:100,spDef:85,speed:93},generation:1},
+            {number:"127",name:"Pinsir",desc:"",image:"",sprite:["app/pokemons/img/sprites/pinsir.png"],type:[types.find(tipo => tipo.name == 'Inseto')],passive:"",baseStats:{hp:65,attack:125,defense:100,spAtk:55,spDef:70,speed:85},generation:1},
+            {number:"128",name:"Tauros",desc:"",image:"",sprite:["app/pokemons/img/sprites/tauros.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:75,attack:100,defense:95,spAtk:40,spDef:70,speed:110},generation:1},
+            {number:"129",name:"Magikarp",desc:"",image:"",sprite:["app/pokemons/img/sprites/magikarp.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:20,attack:10,defense:55,spAtk:15,spDef:20,speed:80},generation:1},
+            {number:"130",name:"Gyarados",desc:"",image:"",sprite:["app/pokemons/img/sprites/gyarados.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:95,attack:125,defense:79,spAtk:60,spDef:100,speed:81},generation:1},
+            {number:"131",name:"Lapras",desc:"",image:"",sprite:["app/pokemons/img/sprites/lapras.png"],type:[types.find(tipo => tipo.name == 'Água'),types.find(tipo => tipo.name == 'Gelo')],passive:"",baseStats:{hp:130,attack:85,defense:80,spAtk:85,spDef:95,speed:60},generation:1},
+            {number:"132",name:"Ditto",desc:"",image:"",sprite:["app/pokemons/img/sprites/ditto.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:48,attack:48,defense:48,spAtk:48,spDef:48,speed:48},generation:1},
+            {number:"133",name:"Eevee",desc:"",image:"",sprite:["app/pokemons/img/sprites/eevee.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:55,attack:55,defense:50,spAtk:45,spDef:65,speed:55},generation:1},
+            {number:"134",name:"Vaporeon",desc:"",image:"",sprite:["app/pokemons/img/sprites/vaporeon.png"],type:[types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:130,attack:65,defense:60,spAtk:110,spDef:95,speed:65},generation:1},
+            {number:"135",name:"Jolteon",desc:"",image:"",sprite:["app/pokemons/img/sprites/jolteon.png"],type:[types.find(tipo => tipo.name == 'Elétrico')],passive:"",baseStats:{hp:65,attack:65,defense:60,spAtk:110,spDef:95,speed:130},generation:1},
+            {number:"136",name:"Flareon",desc:"",image:"",sprite:["app/pokemons/img/sprites/flareon.png"],type:[types.find(tipo => tipo.name == 'Fogo')],passive:"",baseStats:{hp:65,attack:130,defense:60,spAtk:95,spDef:110,speed:65},generation:1},
+            {number:"137",name:"Porygon",desc:"",image:"",sprite:["app/pokemons/img/sprites/porygon.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:65,attack:60,defense:70,spAtk:85,spDef:75,speed:40},generation:1},
+            {number:"138",name:"Omanyte",desc:"",image:"",sprite:["app/pokemons/img/sprites/omanyte.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:35,attack:40,defense:100,spAtk:90,spDef:55,speed:35},generation:1},
+            {number:"139",name:"Omastar",desc:"",image:"",sprite:["app/pokemons/img/sprites/omastar.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:70,attack:60,defense:125,spAtk:115,spDef:70,speed:55},generation:1},
+            {number:"140",name:"Kabuto",desc:"",image:"",sprite:["app/pokemons/img/sprites/kabuto.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:30,attack:80,defense:90,spAtk:55,spDef:45,speed:55},generation:1},
+            {number:"141",name:"Kabutops",desc:"",image:"",sprite:["app/pokemons/img/sprites/kabutops.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Água')],passive:"",baseStats:{hp:60,attack:115,defense:105,spAtk:65,spDef:70,speed:80},generation:1},
+            {number:"142",name:"Aerodactyl",desc:"",image:"",sprite:["app/pokemons/img/sprites/aerodactyl.png"],type:[types.find(tipo => tipo.name == 'Pedra'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:80,attack:105,defense:65,spAtk:60,spDef:75,speed:130},generation:1},
+            {number:"143",name:"Snorlax",desc:"",image:"",sprite:["app/pokemons/img/sprites/snorlax.png"],type:[types.find(tipo => tipo.name == 'Normal')],passive:"",baseStats:{hp:160,attack:110,defense:65,spAtk:65,spDef:110,speed:30},generation:1},
+            {number:"144",name:"Articuno",desc:"",image:"",sprite:["app/pokemons/img/sprites/articuno.png"],type:[types.find(tipo => tipo.name == 'Gelo'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:85,defense:100,spAtk:95,spDef:125,speed:85},generation:1},
+            {number:"145",name:"Zapdos",desc:"",image:"",sprite:["app/pokemons/img/sprites/zapdos.png"],type:[types.find(tipo => tipo.name == 'Elétrico'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:90,defense:85,spAtk:125,spDef:90,speed:100},generation:1},
+            {number:"146",name:"Moltres",desc:"",image:"",sprite:["app/pokemons/img/sprites/moltres.png"],type:[types.find(tipo => tipo.name == 'Fogo'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:90,attack:100,defense:90,spAtk:125,spDef:85,speed:90},generation:1},
+            {number:"147",name:"Dratini",desc:"",image:"",sprite:["app/pokemons/img/sprites/dratini.png"],type:[types.find(tipo => tipo.name == 'Dragão')],passive:"",baseStats:{hp:41,attack:64,defense:45,spAtk:50,spDef:50,speed:50},generation:1},
+            {number:"148",name:"Dragonair",desc:"",image:"",sprite:["app/pokemons/img/sprites/dragonair.png"],type:[types.find(tipo => tipo.name == 'Dragão')],passive:"",baseStats:{hp:61,attack:84,defense:65,spAtk:70,spDef:70,speed:70},generation:1},
+            {number:"149",name:"Dragonite",desc:"",image:"",sprite:["app/pokemons/img/sprites/dragonite.png"],type:[types.find(tipo => tipo.name == 'Dragão'),types.find(tipo => tipo.name == 'Voador')],passive:"",baseStats:{hp:91,attack:134,defense:95,spAtk:100,spDef:100,speed:80},generation:1},
+            {number:"150",name:"Mewtwo",desc:"",image:"",sprite:["app/pokemons/img/sprites/mewtwo.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:106,attack:110,defense:90,spAtk:154,spDef:90,speed:130},generation:1},
+            {number:"151",name:"Mew",desc:"",image:"",sprite:["app/pokemons/img/sprites/mew.png"],type:[types.find(tipo => tipo.name == 'Psiquico')],passive:"",baseStats:{hp:100,attack:100,defense:100,spAtk:100,spDef:100,speed:100},generation:1}
         ];
         return {types,pokedex};
     }

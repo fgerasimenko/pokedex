@@ -8,10 +8,12 @@ import { Type } from './pokemon-type.model';
     moduleId: module.id,
     selector: 'pokemon-lista',
     templateUrl: './pokemon-lista.component.html',
-    styleUrls: ['./pokemon.css']
+    styleUrls: ['./pokemon.css', './pokemon-lista.component.css']
 })
 export class PokemonListaComponent implements OnInit {
     pokemons: Pokemon[];
+    tempt: boolean = true;
+
     constructor(
         private pokemonService: PokemonService
     ) { }
@@ -62,5 +64,15 @@ export class PokemonListaComponent implements OnInit {
         }else
             classe = 'steel';
         return classe;
+    }
+
+    getTipoLista()
+    {
+            if(this.tempt)
+                this.tempt = false;
+            else
+                this.tempt = true;
+
+            console.log(this.tempt);
     }
 }

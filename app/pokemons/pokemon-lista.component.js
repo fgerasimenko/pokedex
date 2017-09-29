@@ -13,6 +13,7 @@ const pokemon_service_1 = require("./pokemon.service");
 let PokemonListaComponent = class PokemonListaComponent {
     constructor(pokemonService) {
         this.pokemonService = pokemonService;
+        this.tempt = true;
     }
     ngOnInit() {
         this.pokemonService.findAll()
@@ -72,13 +73,20 @@ let PokemonListaComponent = class PokemonListaComponent {
             classe = 'steel';
         return classe;
     }
+    getTipoLista() {
+        if (this.tempt)
+            this.tempt = false;
+        else
+            this.tempt = true;
+        console.log(this.tempt);
+    }
 };
 PokemonListaComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'pokemon-lista',
         templateUrl: './pokemon-lista.component.html',
-        styleUrls: ['./pokemon.css']
+        styleUrls: ['./pokemon.css', './pokemon-lista.component.css']
     }),
     __metadata("design:paramtypes", [pokemon_service_1.PokemonService])
 ], PokemonListaComponent);

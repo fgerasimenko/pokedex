@@ -1,17 +1,54 @@
 <div class="container">
     <div class="row">
+        <button (click)="getTipoLista()">Tipo de Visualização</button>
+    </div>
+    <div class="row">
+        <div *ngIf="!tempt; else elseBlock">
+            <table class="table table-hover table-striped">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>#</th>
+                        <th>Imagem</th>
+                        <th>Nome</th>
+                        <th>Tipos</th>
+                        <th>HP</th>
+                        <th>Ataque</th>
+                        <th>Defesa</th>
+                        <th>Ataque Especial</th>
+                        <th>Defesa Especial</th>
+                        <th>Velocidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of pokemons; let i =index">
+                        <td>{{p.number}}</td>
+                        <td><a href="#" download="{{p.name}}.png" href="{{p.sprite[0]}}" title="{{p.name}}"><img src="{{p.sprite[0]}}" alt=""></a></td>
+                        <td>{{p.name}}</td>
+                        <td><div [ngClass]='getTipo(p.type[0])'>{{p.type[0].name}}</div><br><div *ngIf="p.type.length > 1" [ngClass]='getTipo(p.type[1])'>{{p.type[1].name}}</div></td>
+                        <td>{{p.baseStats.hp}}</td>
+                        <td>{{p.baseStats.attack}}</td>
+                        <td>{{p.baseStats.defense}}</td>
+                        <td>{{p.baseStats.spAtk}}</td>
+                        <td>{{p.baseStats.spDef}}</td>
+                        <td>{{p.baseStats.speed}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ng-template #elseBlock>
         <!-- CARDS DE Pokemons -->
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" *ngFor="let p of pokemons; let i =index">
-            <div class="card" >
-                <img class="card-img-top cursor-pointer" src="{{p.image}}" alt="{{p.name}}" height="200px">
-                <div class="card-body">
-                    <h4 class="card-title">#{{p.number}} - {{p.name}}</h4>
-                    <p class="card-text">{{p.desc}}</p>
-                </div>
-                <div class="card-footer justify-content-center">
-                    <div class="col-md-auto justify-content-center"><span [ngClass]='getTipo(p.type[0])'>{{p.type[0].name}}</span><span *ngIf="p.type.length > 1" [ngClass]='getTipo(p.type[1])'> {{p.type[1].name}}</span></div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" *ngFor="let p of pokemons; let i =index">
+                <div class="card" >
+                    <img class="card-img-top cursor-pointer" src="{{p.image}}" alt="{{p.name}}" height="200px">
+                    <div class="card-body">
+                        <h4 class="card-title">#{{p.number}} - {{p.name}}</h4>
+                        <p class="card-text">{{p.desc}}</p>
+                    </div>
+                    <div class="card-footer justify-content-center">
+                        <div class="col-md-auto justify-content-center"><span [ngClass]='getTipo(p.type[0])'>{{p.type[0].name}}</span><span *ngIf="p.type.length > 1" [ngClass]='getTipo(p.type[1])'> {{p.type[1].name}}</span></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </ng-template>
     </div>
 </div>
