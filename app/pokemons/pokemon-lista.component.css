@@ -12,6 +12,18 @@
     height: 100px;
 }
 
+th{
+    padding: 6px 10px;
+    background-color: #e7e7e0;
+    background-image: -webkit-linear-gradient(rgba(180, 180, 180, 0.64),rgba(110, 110, 110, 0.36));
+    background-image: linear-gradient(rgba(180, 180, 180, 0.64),rgba(110, 110, 110, 0.36));
+    border: rgba(110, 110, 110, 0.36);
+    border-width: 1px;
+    text-align: left;
+    white-space: nowrap;
+    color: #000;
+}
+
 thead tr th,tbody tr td{
     text-align: center;
 }

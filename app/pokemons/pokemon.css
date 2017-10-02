@@ -7,176 +7,252 @@
 
 .fire{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: orangered;
+    background: #f08030;
+    background-image: -webkit-linear-gradient(#f08030,#dd6610);
+    background-image: linear-gradient(#f08030,#dd6610);
+    border-color: #b4530d;
 }
 
 .water{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: blue;
+    background: #6890f0;
+    background-image: -webkit-linear-gradient(#6890f0,#386ceb);
+    background-image: linear-gradient(#6890f0,#386ceb);
+    border-color: #1753e3;
 }
 
 .grass{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: green;
+    background: #78c850;
+    background-image: -webkit-linear-gradient(#78c850,#5ca935);
+    background-image: linear-gradient(#78c850,#5ca935);
+    border-color: #4a892b;
 }
 
 .poison{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: purple;
+    background: #a040a0;
+    background-image: -webkit-linear-gradient(#a040a0,#803380);
+    background-image: linear-gradient(#a040a0,#803380);
+    border-color: #662966;;
 }
 
 .bug{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #8b8b00;
+    background: #a8b820;
+    background-image: -webkit-linear-gradient(#a8b820,#8d9a1b);
+    background-image: linear-gradient(#a8b820,#8d9a1b);
+    border-color: #616b13;
 }
 
 .flying{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #009acd;
+    background: #a890f0;
+    background-image: -webkit-linear-gradient(#a890f0,#9180c4);
+    background-image: linear-gradient(#a890f0,#9180c4);
+    border-color: #7762b6;
 }
 
 .normal{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #8b6914;
+    background: #8a8a59;
+    background-image: -webkit-linear-gradient(#a8a878,#8a8a59);
+    background-image: linear-gradient(#a8a878,#8a8a59);
+    border-color: #79794e;
 }
 
 .eletric{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #eec900;
+    background: #f8d030;
+    background-image: -webkit-linear-gradient(#f8d030,#f0c108);
+    background-image: linear-gradient(#f8d030,#f0c108);
+    border-color: #c19b07;
 }
 
 .fairy{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #ff00ff;
+    background: #e898e8;
+    background-image: -webkit-linear-gradient(#e898e8,#de6ede);
+    background-image: linear-gradient(#e898e8,#de6ede);
+    border-color: #d547d5;
 }
 
 .ground{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #997379;
+    background: #e0c068;
+    background-image: -webkit-linear-gradient(#e0c068,#d4a82f);
+    background-image: linear-gradient(#e0c068,#d4a82f);
+    border-color: #aa8623;
 }
 
 .ice{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #cccccc;
+    background: #98d8d8;
+    background-image: -webkit-linear-gradient(#98d8d8,#69c6c6);
+    background-image: linear-gradient(#98d8d8,#69c6c6);
+    border-color: #45b6b6;
 }
 
 .dragon{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #7070ff;
+    background: #7038f8;
+    background-image: -webkit-linear-gradient(#7038f8,#4c08ef);
+    background-image: linear-gradient(#7038f8,#4c08ef);
+    border-color: #3d07c0;
 }
 
 .fighting{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: red;
+    background: #c03028;
+    background-image: -webkit-linear-gradient(#c03028,#9d2721);
+    background-image: linear-gradient(#c03028,#9d2721);
+    border-color: #82211b;
 }
 
 .psychic{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #f00c93;
+    background: #f85888;
+    background-image: -webkit-linear-gradient(#f85888,#f61c5d);
+    background-image: linear-gradient(#f85888,#f61c5d);
+    border-color: #d60945;
 }
 
 .rock{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #9a955f;
+    background: #b8a038;
+    background-image: -webkit-linear-gradient(#b8a038,#93802d);
+    background-image: linear-gradient(#b8a038,#93802d);
+    border-color: #746523;
 }
 
 .steel{
     padding: 5px 5px;
-    margin: 5px;
-    border: solid 1px #000;
-    border-radius: 10px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
     font-family: Pokemon;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    background-color: #404040;
+    background: #b8b8d0;
+    background-image: -webkit-linear-gradient(#b8b8d0,#9797ba);
+    background-image: linear-gradient(#b8b8d0,#9797ba);
+    border-color: #7a7aa7;
+}
+
+.ghost{
+    padding: 5px 5px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background: #705898;
+    background-image: -webkit-linear-gradient(#705898,#554374);
+    background-image: linear-gradient(#705898,#554374);
+    border-color: #413359;
+}
+
+.dark{
+    padding: 5px 5px;
+    margin: 2px;
+    /* border: solid 1px #000; */
+    border-radius: 5px;
+    font-family: Pokemon;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    background: #705848;
+    background-image: -webkit-linear-gradient(#705848,#513f34);
+    background-image: linear-gradient(#705848,#513f34);
+    border-color: #362a23;
 }

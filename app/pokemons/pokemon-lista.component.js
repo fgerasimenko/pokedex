@@ -69,8 +69,15 @@ let PokemonListaComponent = class PokemonListaComponent {
         else if (pkm.name == 'Pedra') {
             classe = 'rock';
         }
-        else
+        else if (pkm.name == 'Aço') {
             classe = 'steel';
+        }
+        else if (pkm.name == 'Fantasma') {
+            classe = 'ghost';
+        }
+        else {
+            classe = 'dark';
+        }
         return classe;
     }
     getTipoLista() {
@@ -78,7 +85,6 @@ let PokemonListaComponent = class PokemonListaComponent {
             this.tempt = false;
         else
             this.tempt = true;
-        console.log(this.tempt);
     }
 };
 PokemonListaComponent = __decorate([

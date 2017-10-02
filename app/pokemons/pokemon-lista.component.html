@@ -22,7 +22,7 @@
                 <tbody>
                     <tr *ngFor="let p of pokemons; let i =index">
                         <td>{{p.number}}</td>
-                        <td><a href="#" download="{{p.name}}.png" href="{{p.sprite[0]}}" title="{{p.name}}"><img src="{{p.sprite[0]}}" alt=""></a></td>
+                        <td><img src="{{p.sprite[0]}}" alt="{{p.name}}"></td>
                         <td>{{p.name}}</td>
                         <td><div [ngClass]='getTipo(p.type[0])'>{{p.type[0].name}}</div><br><div *ngIf="p.type.length > 1" [ngClass]='getTipo(p.type[1])'>{{p.type[1].name}}</div></td>
                         <td>{{p.baseStats.hp}}</td>

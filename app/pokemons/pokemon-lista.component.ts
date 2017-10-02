@@ -61,8 +61,14 @@ export class PokemonListaComponent implements OnInit {
             classe = 'psychic'
         }else if(pkm.name == 'Pedra'){
             classe = 'rock';
-        }else
+        }else if(pkm.name == 'Aço'){
             classe = 'steel';
+        }else if(pkm.name == 'Fantasma'){
+            classe = 'ghost'
+        }else{
+            classe ='dark'
+        }
+            
         return classe;
     }
 
@@ -72,7 +78,5 @@ export class PokemonListaComponent implements OnInit {
                 this.tempt = false;
             else
                 this.tempt = true;
-
-            console.log(this.tempt);
     }
 }
