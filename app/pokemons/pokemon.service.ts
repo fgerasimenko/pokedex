@@ -23,4 +23,10 @@ export class PokemonService {
             .then(response => response.json().data as Pokemon[])
             .catch();
     }
+
+    find(id: string): Promise<any>
+    {
+        return this.findAll()
+            .then(pokemons => pokemons.find(pokemon => pokemon.number === id));
+    }
 }

@@ -25,6 +25,10 @@ let PokemonService = class PokemonService {
             .then(response => response.json().data)
             .catch();
     }
+    find(id) {
+        return this.findAll()
+            .then(pokemons => pokemons.find(pokemon => pokemon.number === id));
+    }
 };
 PokemonService = __decorate([
     core_1.Injectable(),

@@ -7,6 +7,7 @@ import { InMemoryDataService } from './in-memory-data.service';
 
 import { AppComponent }  from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+
 import { PokemonModule } from './pokemons/pokemon.module';
 
 @NgModule({

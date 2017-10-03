@@ -22,7 +22,7 @@
                 <tbody>
                     <tr *ngFor="let p of pokemons; let i =index">
                         <td>{{p.number}}</td>
-                        <td><img src="{{p.sprite[0]}}" alt="{{p.name}}"></td>
+                        <td><img src="{{p.sprite[0]}}" alt="{{p.name}}" [routerLink] = "['/pokedex', p.number]"></td>
                         <td>{{p.name}}</td>
                         <td><div [ngClass]='getTipo(p.type[0])'>{{p.type[0].name}}</div><br><div *ngIf="p.type.length > 1" [ngClass]='getTipo(p.type[1])'>{{p.type[1].name}}</div></td>
                         <td>{{p.baseStats.hp}}</td>
@@ -39,7 +39,7 @@
         <!-- CARDS DE Pokemons -->
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" *ngFor="let p of pokemons; let i =index">
                 <div class="card" >
-                    <img class="card-img-top cursor-pointer" src="{{p.image}}" alt="{{p.name}}" height="200px">
+                    <img class="card-img-top cursor-pointer" src="{{p.image}}" alt="{{p.name}}" height="200px" [routerLink] = "['/pokedex', p.number]">
                     <div class="card-body">
                         <h4 class="card-title">#{{p.number}} - {{p.name}}</h4>
                         <p class="card-text">{{p.desc}}</p>

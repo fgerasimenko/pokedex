@@ -8,9 +8,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 const core_1 = require("@angular/core");
 const router_1 = require("@angular/router");
 const common_1 = require("@angular/common");
+const pokemon_detalhe_component_1 = require("./pokemon-detalhe.component");
 const pokemon_lista_component_1 = require("./pokemon-lista.component");
 const routes = [
-    { path: 'pokedex', component: pokemon_lista_component_1.PokemonListaComponent }
+    { path: 'pokedex', component: pokemon_lista_component_1.PokemonListaComponent },
+    {
+        path: 'pokedex/:number',
+        component: pokemon_detalhe_component_1.PokemonDetalheComponent
+    }
 ];
 let PokemonRoutingModule = class PokemonRoutingModule {
 };

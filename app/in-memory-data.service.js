@@ -34,144 +34,16 @@ class InMemoryDataService {
             { number: '009', name: 'Blastoise', desc: 'Evolução do Wartortle', image: '', /*'app/pokemons/img/blastoise.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/blastoise.png'], type: [types.find(tipo => tipo.name == 'Água')], passive: 'Teste1', baseStats: { hp: 79, attack: 83, defense: 100, spAtk: 85, spDef: 105, speed: 78 }, generation: 1 },
             { number: '010', name: 'Caterpie', desc: 'Primeiro Pokemon Inseto da Pokedéx', image: '', /*'app/pokemons/img/caterpie.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/caterpie.png'], type: [types.find(tipo => tipo.name == 'Inseto')], passive: 'Teste1', baseStats: { hp: 49, attack: 30, defense: 35, spAtk: 20, spDef: 20, speed: 45 }, generation: 1 },
             { number: '011', name: 'Metapod', desc: 'Evolução do Caterpie', image: '', /*'app/pokemons/img/metapod.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/metapod.png'], type: [types.find(tipo => tipo.name == 'Inseto')], passive: 'Teste1', baseStats: { hp: 50, attack: 20, defense: 55, spAtk: 25, spDef: 25, speed: 30 }, generation: 1 },
-            {
-                number: '012',
-                name: 'Butterfree',
-                desc: 'Evolução do Metapod',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/butterfree.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Inseto'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 60, attack: 45, defense: 50, spAtk: 90, spDef: 80, speed: 70 },
-                generation: 1
-            },
-            {
-                number: '013',
-                name: 'Weedle',
-                desc: 'Tipo o Caterpie',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/weedle.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Inseto'),
-                    types.find(tipo => tipo.name == 'Venenoso')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 40, attack: 35, defense: 30, spAtk: 20, spDef: 20, speed: 50 },
-                generation: 1
-            },
-            {
-                number: '014',
-                name: 'Kakuna',
-                desc: 'Evolução do Weedle',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/kakuna.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Inseto'),
-                    types.find(tipo => tipo.name == 'Venenoso')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 45, attack: 25, defense: 50, spAtk: 25, spDef: 25, speed: 35 },
-                generation: 1
-            },
-            {
-                number: '015',
-                name: 'Beedrill',
-                desc: 'Evolução do Kakuna',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/beedrill.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Inseto'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 65, attack: 90, defense: 40, spAtk: 45, spDef: 80, speed: 75 },
-                generation: 1
-            },
-            {
-                number: '016',
-                name: 'Pidgey',
-                desc: 'Pombo do Pokemon',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/pidgey.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 40, attack: 45, defense: 40, spAtk: 35, spDef: 35, speed: 56 },
-                generation: 1
-            },
-            {
-                number: '017',
-                name: 'Pidgeotto',
-                desc: 'Evolução do Pidgey',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/pidgeotto.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 63, attack: 60, defense: 55, spAtk: 50, spDef: 50, speed: 71 },
-                generation: 1
-            },
-            {
-                number: '018',
-                name: 'Pidgeot',
-                desc: 'Evolução do Pidgeotto',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/pidgeot.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 83, attack: 80, defense: 75, spAtk: 70, spDef: 70, speed: 101 },
-                generation: 1
-            },
-            {
-                number: '019',
-                name: 'Rattata',
-                desc: 'Pior praga dos jogos do Pokemon',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/rattata.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 30, attack: 56, defense: 35, spAtk: 25, spDef: 35, speed: 72 },
-                generation: 1
-            },
-            {
-                number: '020',
-                name: 'Raticate',
-                desc: 'Evolução do Rattata',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/raticate.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 55, attack: 81, defense: 60, spAtk: 50, spDef: 70, speed: 97 },
-                generation: 1
-            },
-            {
-                number: '021',
-                name: 'Spearow',
-                desc: 'Outro Pombo',
-                image: '',
-                sprite: ['app/pokemons/img/sprites/g1/spearow.png'],
-                type: [
-                    types.find(tipo => tipo.name == 'Normal'),
-                    types.find(tipo => tipo.name == 'Voador')
-                ],
-                passive: 'Teste1',
-                baseStats: { hp: 40, attack: 60, defense: 30, spAtk: 31, spDef: 31, speed: 70 },
-                generation: 1
-            },
+            { number: '012', name: 'Butterfree', desc: 'Evolução do Metapod', image: '', /*'app/pokemons/img/butterfree.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/butterfree.png'], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 60, attack: 45, defense: 50, spAtk: 90, spDef: 80, speed: 70 }, generation: 1 },
+            { number: '013', name: 'Weedle', desc: 'Tipo o Caterpie', image: '', /*'app/pokemons/img/weedle.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/weedle.png'], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Venenoso')], passive: 'Teste1', baseStats: { hp: 40, attack: 35, defense: 30, spAtk: 20, spDef: 20, speed: 50 }, generation: 1 },
+            { number: '014', name: 'Kakuna', desc: 'Evolução do Weedle', image: '', /*'app/pokemons/img/weedle.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/kakuna.png'], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Venenoso')], passive: 'Teste1', baseStats: { hp: 45, attack: 25, defense: 50, spAtk: 25, spDef: 25, speed: 35 }, generation: 1 },
+            { number: '015', name: 'Beedrill', desc: 'Evolução do Kakuna', image: '', /*'app/pokemons/img/beedrill.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/beedrill.png'], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 65, attack: 90, defense: 40, spAtk: 45, spDef: 80, speed: 75 }, generation: 1 },
+            { number: '016', name: 'Pidgey', desc: 'Pombo do Pokemon', image: '', /*'app/pokemons/img/pidgey.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/pidgey.png'], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 40, attack: 45, defense: 40, spAtk: 35, spDef: 35, speed: 56 }, generation: 1 },
+            { number: '017', name: 'Pidgeotto', desc: 'Evolução do Pidgey', image: '', /*'app/pokemons/img/pidgeotto.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/pidgeotto.png'], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 63, attack: 60, defense: 55, spAtk: 50, spDef: 50, speed: 71 }, generation: 1 },
+            { number: '018', name: 'Pidgeot', desc: 'Evolução do Pidgeotto', image: '', /*'app/pokemons/img/pidgeot.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/pidgeot.png'], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 83, attack: 80, defense: 75, spAtk: 70, spDef: 70, speed: 101 }, generation: 1 },
+            { number: '019', name: 'Rattata', desc: 'Pior praga dos jogos do Pokemon', image: '', /*'app/pokemons/img/rattata.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/rattata.png'], type: [types.find(tipo => tipo.name == 'Normal')], passive: 'Teste1', baseStats: { hp: 30, attack: 56, defense: 35, spAtk: 25, spDef: 35, speed: 72 }, generation: 1 },
+            { number: '020', name: 'Raticate', desc: 'Evolução do Rattata', image: '', /*'app/pokemons/img/raticate.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/raticate.png'], type: [types.find(tipo => tipo.name == 'Normal')], passive: 'Teste1', baseStats: { hp: 55, attack: 81, defense: 60, spAtk: 50, spDef: 70, speed: 97 }, generation: 1 },
+            { number: '021', name: 'Spearow', desc: 'Outro Pombo', image: '', /*'app/pokemons/img/raticate.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/spearow.png'], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 40, attack: 60, defense: 30, spAtk: 31, spDef: 31, speed: 70 }, generation: 1 },
             { number: '022', name: 'Fearow', desc: 'Evolução do Spearow', image: '', /*'app/pokemons/img/fearow.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/fearow.png'], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: 'Teste1', baseStats: { hp: 65, attack: 90, defense: 65, spAtk: 61, spDef: 61, speed: 100 }, generation: 1 },
             { number: '023', name: 'Ekans', desc: 'Cobritcha', image: '', /*'app/pokemons/img/ekans.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/ekans.png'], type: [types.find(tipo => tipo.name == 'Venenoso')], passive: 'Teste1', baseStats: { hp: 35, attack: 60, defense: 44, spAtk: 40, spDef: 54, speed: 55 }, generation: 1 },
             { number: '024', name: 'Arbok', desc: 'Evolução da Ekans', image: '', /*'app/pokemons/img/arbok.jpg',*/ sprite: ['app/pokemons/img/sprites/g1/arbok.png'], type: [types.find(tipo => tipo.name == 'Venenoso')], passive: 'Teste1', baseStats: { hp: 60, attack: 95, defense: 69, spAtk: 65, spDef: 79, speed: 80 }, generation: 1 },
@@ -701,7 +573,8 @@ class InMemoryDataService {
             { number: "545", name: "Scolipede", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/scolipede.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Venenoso')], passive: "", baseStats: { hp: 60, attack: 100, defense: 89, spAtk: 55, spDef: 69, speed: 112 }, generation: 5 },
             { number: "546", name: "Cottonee", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/cottonee.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Fada')], passive: "", baseStats: { hp: 40, attack: 27, defense: 60, spAtk: 37, spDef: 50, speed: 66 }, generation: 5 },
             { number: "547", name: "Whimsicott", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/whimsicott.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Fada')], passive: "", baseStats: { hp: 60, attack: 67, defense: 85, spAtk: 77, spDef: 75, speed: 116 }, generation: 5 },
-            { number: "548", name: "Petilil", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/petilil.png"], type: [types.find(tipo => tipo.name == 'Grama')], passive: "", baseStats: { hp: 45, attack: 35, defense: 50, spAtk: 70, spDef: 50, speed: 30 }, generation: 5 }, { number: "549", name: "Lilligant", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/lilligant.png"], type: [types.find(tipo => tipo.name == 'Grama')], passive: "", baseStats: { hp: 70, attack: 60, defense: 75, spAtk: 110, spDef: 75, speed: 90 }, generation: 5 },
+            { number: "548", name: "Petilil", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/petilil.png"], type: [types.find(tipo => tipo.name == 'Grama')], passive: "", baseStats: { hp: 45, attack: 35, defense: 50, spAtk: 70, spDef: 50, speed: 30 }, generation: 5 },
+            { number: "549", name: "Lilligant", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/lilligant.png"], type: [types.find(tipo => tipo.name == 'Grama')], passive: "", baseStats: { hp: 70, attack: 60, defense: 75, spAtk: 110, spDef: 75, speed: 90 }, generation: 5 },
             { number: "550", name: "Basculin", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/basculin.png"], type: [types.find(tipo => tipo.name == 'Água')], passive: "", baseStats: { hp: 70, attack: 92, defense: 65, spAtk: 80, spDef: 55, speed: 98 }, generation: 5 },
             { number: "551", name: "Sandile", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/sandile.png"], type: [types.find(tipo => tipo.name == 'Terra'), types.find(tipo => tipo.name == 'Trevas')], passive: "", baseStats: { hp: 50, attack: 72, defense: 35, spAtk: 35, spDef: 35, speed: 65 }, generation: 5 },
             { number: "552", name: "Krokorok", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/krokorok.png"], type: [types.find(tipo => tipo.name == 'Terra'), types.find(tipo => tipo.name == 'Trevas')], passive: "", baseStats: { hp: 60, attack: 82, defense: 45, spAtk: 45, spDef: 45, speed: 74 }, generation: 5 },
@@ -741,11 +614,13 @@ class InMemoryDataService {
             { number: "586", name: "Sawsbuck", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/sawsbuck.png"], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Grama')], passive: "", baseStats: { hp: 80, attack: 100, defense: 70, spAtk: 60, spDef: 70, speed: 95 }, generation: 5 },
             { number: "587", name: "Emolga", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/emolga.png"], type: [types.find(tipo => tipo.name == 'Elétrico'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 55, attack: 75, defense: 60, spAtk: 75, spDef: 60, speed: 103 }, generation: 5 },
             { number: "588", name: "Karrablast", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/karrablast.png"], type: [types.find(tipo => tipo.name == 'Inseto')], passive: "", baseStats: { hp: 50, attack: 75, defense: 45, spAtk: 40, spDef: 45, speed: 60 }, generation: 5 },
-            { number: "589", name: "Escavalier", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/escavalier.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 70, attack: 135, defense: 105, spAtk: 60, spDef: 105, speed: 20 }, generation: 5 }, { number: "590", name: "Foongus", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/foongus.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Venenoso')], passive: "", baseStats: { hp: 69, attack: 55, defense: 45, spAtk: 55, spDef: 55, speed: 15 }, generation: 5 },
+            { number: "589", name: "Escavalier", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/escavalier.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 70, attack: 135, defense: 105, spAtk: 60, spDef: 105, speed: 20 }, generation: 5 },
+            { number: "590", name: "Foongus", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/foongus.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Venenoso')], passive: "", baseStats: { hp: 69, attack: 55, defense: 45, spAtk: 55, spDef: 55, speed: 15 }, generation: 5 },
             { number: "591", name: "Amoonguss", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/amoonguss.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Venenoso')], passive: "", baseStats: { hp: 114, attack: 85, defense: 70, spAtk: 85, spDef: 80, speed: 30 }, generation: 5 },
             { number: "592", name: "Frillish", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/frillish.png"], type: [types.find(tipo => tipo.name == 'Água'), types.find(tipo => tipo.name == 'Fantasma')], passive: "", baseStats: { hp: 55, attack: 40, defense: 50, spAtk: 65, spDef: 85, speed: 40 }, generation: 5 },
             { number: "593", name: "Jellicent", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/jellicent.png"], type: [types.find(tipo => tipo.name == 'Água'), types.find(tipo => tipo.name == 'Fantasma')], passive: "", baseStats: { hp: 100, attack: 60, defense: 70, spAtk: 85, spDef: 105, speed: 60 }, generation: 5 },
-            { number: "594", name: "Alomomola", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/alomomola.png"], type: [types.find(tipo => tipo.name == 'Água')], passive: "", baseStats: { hp: 165, attack: 75, defense: 80, spAtk: 40, spDef: 45, speed: 65 }, generation: 5 }, { number: "595", name: "Joltik", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/joltik.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Elétrico')], passive: "", baseStats: { hp: 50, attack: 47, defense: 50, spAtk: 57, spDef: 50, speed: 65 }, generation: 5 },
+            { number: "594", name: "Alomomola", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/alomomola.png"], type: [types.find(tipo => tipo.name == 'Água')], passive: "", baseStats: { hp: 165, attack: 75, defense: 80, spAtk: 40, spDef: 45, speed: 65 }, generation: 5 },
+            { number: "595", name: "Joltik", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/joltik.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Elétrico')], passive: "", baseStats: { hp: 50, attack: 47, defense: 50, spAtk: 57, spDef: 50, speed: 65 }, generation: 5 },
             { number: "596", name: "Galvantula", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/galvantula.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Elétrico')], passive: "", baseStats: { hp: 70, attack: 77, defense: 60, spAtk: 97, spDef: 60, speed: 108 }, generation: 5 },
             { number: "597", name: "Ferroseed", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/ferroseed.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 44, attack: 50, defense: 91, spAtk: 24, spDef: 86, speed: 10 }, generation: 5 },
             { number: "598", name: "Ferrothorn", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/ferrothorn.png"], type: [types.find(tipo => tipo.name == 'Grama'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 74, attack: 94, defense: 131, spAtk: 54, spDef: 116, speed: 20 }, generation: 5 },
@@ -778,7 +653,8 @@ class InMemoryDataService {
             { number: "625", name: "Bisharp", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/bisharp.png"], type: [types.find(tipo => tipo.name == 'Trevas'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 65, attack: 125, defense: 100, spAtk: 60, spDef: 70, speed: 70 }, generation: 5 },
             { number: "626", name: "Bouffalant", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/bouffalant.png"], type: [types.find(tipo => tipo.name == 'Normal')], passive: "", baseStats: { hp: 95, attack: 110, defense: 95, spAtk: 40, spDef: 95, speed: 55 }, generation: 5 },
             { number: "627", name: "Rufflet", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/rufflet.png"], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 70, attack: 83, defense: 50, spAtk: 37, spDef: 50, speed: 60 }, generation: 5 },
-            { number: "628", name: "Braviary", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/braviary.png"], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 100, attack: 123, defense: 75, spAtk: 57, spDef: 75, speed: 80 }, generation: 5 }, { number: "629", name: "Vullaby", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/vullaby.png"], type: [types.find(tipo => tipo.name == 'Trevas'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 70, attack: 55, defense: 75, spAtk: 45, spDef: 65, speed: 60 }, generation: 5 },
+            { number: "628", name: "Braviary", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/braviary.png"], type: [types.find(tipo => tipo.name == 'Normal'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 100, attack: 123, defense: 75, spAtk: 57, spDef: 75, speed: 80 }, generation: 5 },
+            { number: "629", name: "Vullaby", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/vullaby.png"], type: [types.find(tipo => tipo.name == 'Trevas'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 70, attack: 55, defense: 75, spAtk: 45, spDef: 65, speed: 60 }, generation: 5 },
             { number: "630", name: "Mandibuzz", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/mandibuzz.png"], type: [types.find(tipo => tipo.name == 'Trevas'), types.find(tipo => tipo.name == 'Voador')], passive: "", baseStats: { hp: 110, attack: 65, defense: 105, spAtk: 55, spDef: 95, speed: 80 }, generation: 5 },
             { number: "631", name: "Heatmor", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/heatmor.png"], type: [types.find(tipo => tipo.name == 'Fogo')], passive: "", baseStats: { hp: 85, attack: 97, defense: 66, spAtk: 105, spDef: 66, speed: 65 }, generation: 5 },
             { number: "632", name: "Durant", desc: "", image: "", sprite: ["app/pokemons/img/sprites/g5/durant.png"], type: [types.find(tipo => tipo.name == 'Inseto'), types.find(tipo => tipo.name == 'Aço')], passive: "", baseStats: { hp: 58, attack: 109, defense: 112, spAtk: 48, spDef: 48, speed: 109 }, generation: 5 },
